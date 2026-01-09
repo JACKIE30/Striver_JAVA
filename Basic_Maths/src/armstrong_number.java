@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+//TC: 0(log10(N));
+
 public class armstrong_number {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
