@@ -1,9 +1,6 @@
 import java.util.Scanner;
 
-//TC-0(n) //SC-0(n)
-
-
-public class print_number {
+public class print_reverse_numbers {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int number=sc.nextInt();
@@ -11,7 +8,7 @@ public class print_number {
     }
     public static void print(int number, int iter){
         if(iter>number) return;
-        System.out.println(iter);
         print(number, iter+1);
+        System.out.println(iter);
     }
 }
