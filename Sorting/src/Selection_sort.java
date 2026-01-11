@@ -1,4 +1,10 @@
 public class Selection_sort {
+
+
+    //TC:0(n^2);
+    //SC:0(1);
+
+
     public static void main(String[] args) {
         int[] arr={13,1,45,2,54,78};
         for(int num: arr){
